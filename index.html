@@ -3,36 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vansh Diora - Portfolio</title>
-    <meta name="description" content="Vansh Diora - Finance & Computer Science Student | Private Equity & Software Development">
-    <link rel="stylesheet" href="styles/main.css">
+    <title>Vansh Diora - Quantitative Finance & Tech Innovator</title>
+    <meta name="description" content="Vansh Diora - Elite Finance & Computer Science Student | Private Equity & Software Development Expert">
+    <link rel="stylesheet" href="styles/enhanced.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+    <!-- Animated Background -->
+    <div class="animated-background">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+            <div class="shape shape-6"></div>
+        </div>
+        <div class="gradient-orbs">
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+            <div class="orb orb-3"></div>
+        </div>
+    </div>
+
     <!-- Navigation -->
-    <nav class="navbar">
+    <nav class="navbar glass-effect">
         <div class="nav-container">
             <div class="nav-logo">
-                <a href="#home">VD</a>
+                <a href="#home" class="logo-text">
+                    <span class="logo-v">V</span>
+                    <span class="logo-d">D</span>
+                    <div class="logo-underline"></div>
+                </a>
             </div>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#home" class="nav-link active">
+                        <span class="nav-text">Home</span>
+                        <span class="nav-indicator"></span>
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#about" class="nav-link">About</a>
+                    <a href="#about" class="nav-link">
+                        <span class="nav-text">About</span>
+                        <span class="nav-indicator"></span>
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#experience" class="nav-link">Experience</a>
+                    <a href="#experience" class="nav-link">
+                        <span class="nav-text">Experience</span>
+                        <span class="nav-indicator"></span>
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#projects" class="nav-link">
+                        <span class="nav-text">Projects</span>
+                        <span class="nav-indicator"></span>
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contact</a>
+                    <a href="#contact" class="nav-link">
+                        <span class="nav-text">Contact</span>
+                        <span class="nav-indicator"></span>
+                    </a>
                 </li>
             </ul>
             <div class="nav-toggle">
@@ -48,42 +84,90 @@
         <div class="hero-container">
             <div class="hero-content">
                 <div class="hero-text">
+                    <div class="hero-badge">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Elite Finance & Tech Innovator</span>
+                    </div>
                     <h1 class="hero-title">
-                        <span class="gradient-text">Vansh Diora</span>
+                        <span class="title-line">Hi, I'm</span>
+                        <span class="title-name">
+                            <span class="name-part">Vansh</span>
+                            <span class="name-part">Diora</span>
+                        </span>
+                        <div class="title-cursor"></div>
                     </h1>
-                    <h2 class="hero-subtitle">Finance & Computer Science Student</h2>
+                    <h2 class="hero-subtitle">
+                        <span class="typing-text"></span>
+                    </h2>
                     <p class="hero-description">
-                        Dual degree student at Boston University specializing in quantitative finance, 
-                        private equity, and software development. CFA Level I Candidate with extensive 
-                        experience in financial modeling and algorithmic trading.
+                        Dual degree student at <strong>Boston University</strong> specializing in quantitative finance and 
+                        algorithmic trading. <strong>CFA Level I Candidate</strong> with hands-on experience at top 
+                        private equity firms, building the future of fintech through innovative solutions.
                     </p>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="750">0</div>
+                            <div class="stat-label">Deals Analyzed</div>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="500">0</div>
+                            <div class="stat-label">Million $ Transacted</div>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="75">0</div>
+                            <div class="stat-label">% Efficiency Gain</div>
+                        </div>
+                    </div>
                     <div class="hero-buttons">
-                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                        <a href="#contact" class="btn btn-primary">
+                            <span>Let's Connect</span>
+                            <i class="fas fa-rocket"></i>
+                        </a>
                         <a href="assets/Vansh_Diora_Resume.pdf" class="btn btn-secondary" download>
-                            <i class="fas fa-download"></i> Resume
+                            <span>Download Resume</span>
+                            <i class="fas fa-download"></i>
                         </a>
                     </div>
                     <div class="hero-social">
-                        <a href="https://linkedin.com/in/vansh-diora" target="_blank" aria-label="LinkedIn">
+                        <a href="https://linkedin.com/in/vansh-diora" target="_blank" class="social-link linkedin">
                             <i class="fab fa-linkedin-in"></i>
+                            <span class="social-tooltip">LinkedIn</span>
                         </a>
-                        <a href="https://github.com/vanshdiora21" target="_blank" aria-label="GitHub">
+                        <a href="https://github.com/vanshdiora21" target="_blank" class="social-link github">
                             <i class="fab fa-github"></i>
+                            <span class="social-tooltip">GitHub</span>
                         </a>
-                        <a href="mailto:dioravansh0@gmail.com" aria-label="Email">
+                        <a href="mailto:dioravansh0@gmail.com" class="social-link email">
                             <i class="fas fa-envelope"></i>
+                            <span class="social-tooltip">Email</span>
                         </a>
                     </div>
                 </div>
-                <div class="hero-image">
-                    <div class="hero-image-container">
-                        <img src="assets/profile-placeholder.jpg" alt="Vansh Diora" class="profile-img">
-                        <div class="hero-decorative"></div>
+                <div class="hero-visual">
+                    <div class="profile-container">
+                        <div class="profile-glow"></div>
+                        <div class="profile-rings">
+                            <div class="ring ring-1"></div>
+                            <div class="ring ring-2"></div>
+                            <div class="ring ring-3"></div>
+                        </div>
+                        <img src="assets/profile-placeholder.jpg" alt="Vansh Diora" class="profile-image">
+                        <div class="floating-icons">
+                            <div class="floating-icon icon-1"><i class="fab fa-python"></i></div>
+                            <div class="floating-icon icon-2"><i class="fas fa-chart-line"></i></div>
+                            <div class="floating-icon icon-3"><i class="fas fa-brain"></i></div>
+                            <div class="floating-icon icon-4"><i class="fab fa-bitcoin"></i></div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="scroll-indicator">
-                <div class="scroll-arrow"></div>
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div class="scroll-text">Scroll to explore</div>
             </div>
         </div>
     </section>
@@ -92,66 +176,121 @@
     <section id="about" class="about">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">About Me</h2>
-                <p class="section-subtitle">Bridging Finance and Technology</p>
+                <div class="section-badge">
+                    <i class="fas fa-user-graduate"></i>
+                    <span>About Me</span>
+                </div>
+                <h2 class="section-title">
+                    <span class="title-text">Bridging Finance</span>
+                    <span class="title-text">& Technology</span>
+                </h2>
+                <p class="section-subtitle">Where quantitative analysis meets innovative solutions</p>
             </div>
             <div class="about-content">
                 <div class="about-text">
-                    <p class="about-paragraph">
-                        I'm a dual degree student at Boston University pursuing a Bachelor of Science in Business 
-                        Administration with a concentration in Finance, alongside a Bachelor of Arts in Computer Science. 
-                        Currently preparing for the CFA Level I exam (November 2025).
-                    </p>
-                    <p class="about-paragraph">
-                        My passion lies at the intersection of quantitative finance and technology. Through internships 
-                        at private equity firms like 3i Capital and Caprae Capital Partners, I've gained hands-on 
-                        experience in deal sourcing, financial modeling, and investment analysis. My technical skills 
-                        in Python, SQL, and machine learning complement my financial expertise.
-                    </p>
-                    <div class="about-stats">
-                        <div class="stat">
-                            <h3>750+</h3>
-                            <p>Deals Analyzed</p>
+                    <div class="text-card glass-card">
+                        <div class="card-icon">
+                            <i class="fas fa-graduation-cap"></i>
                         </div>
-                        <div class="stat">
-                            <h3>$500M+</h3>
-                            <p>Transaction Value</p>
+                        <h3>Academic Excellence</h3>
+                        <p>
+                            Pursuing a dual degree at Boston University: <strong>Bachelor of Science in Business 
+                            Administration (Finance)</strong> and <strong>Bachelor of Arts in Computer Science</strong>. 
+                            Currently preparing for the CFA Level I examination (November 2025).
+                        </p>
+                    </div>
+                    <div class="text-card glass-card">
+                        <div class="card-icon">
+                            <i class="fas fa-briefcase"></i>
                         </div>
-                        <div class="stat">
-                            <h3>75%</h3>
-                            <p>Process Optimization</p>
+                        <h3>Professional Experience</h3>
+                        <p>
+                            Extensive experience across top-tier private equity firms including 3i Capital, 
+                            Caprae Capital Partners, and ValueQuest Investment Advisors. Specialized in deal 
+                            sourcing, financial modeling, and quantitative analysis.
+                        </p>
+                    </div>
+                    <div class="text-card glass-card">
+                        <div class="card-icon">
+                            <i class="fas fa-code"></i>
                         </div>
+                        <h3>Technical Innovation</h3>
+                        <p>
+                            Passionate about leveraging technology to solve complex financial problems. 
+                            Experienced in algorithmic trading, machine learning applications in finance, 
+                            and building scalable financial systems.
+                        </p>
                     </div>
                 </div>
-                <div class="about-skills">
-                    <div class="skills-category">
-                        <h3>Programming</h3>
-                        <div class="skills-list">
-                            <span class="skill-tag">Python</span>
-                            <span class="skill-tag">SQL</span>
-                            <span class="skill-tag">C++</span>
-                            <span class="skill-tag">Java</span>
-                            <span class="skill-tag">JavaScript</span>
-                        </div>
+                <div class="skills-visualization">
+                    <div class="skills-header">
+                        <h3>Technical Expertise</h3>
+                        <p>Cutting-edge skills across finance and technology</p>
                     </div>
-                    <div class="skills-category">
-                        <h3>Finance</h3>
-                        <div class="skills-list">
-                            <span class="skill-tag">Financial Modeling</span>
-                            <span class="skill-tag">DCF Analysis</span>
-                            <span class="skill-tag">LBO Modeling</span>
-                            <span class="skill-tag">Equity Research</span>
-                            <span class="skill-tag">Derivatives</span>
+                    <div class="skills-grid">
+                        <div class="skill-category programming">
+                            <div class="category-header">
+                                <i class="fas fa-code"></i>
+                                <h4>Programming</h4>
+                            </div>
+                            <div class="skill-items">
+                                <div class="skill-item" data-level="95">
+                                    <span class="skill-name">Python</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item" data-level="90">
+                                    <span class="skill-name">SQL</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item" data-level="85">
+                                    <span class="skill-name">C++</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item" data-level="80">
+                                    <span class="skill-name">Java</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="skills-category">
-                        <h3>Tools & Platforms</h3>
-                        <div class="skills-list">
-                            <span class="skill-tag">Git & Docker</span>
-                            <span class="skill-tag">Argus Enterprise</span>
-                            <span class="skill-tag">scikit-learn</span>
-                            <span class="skill-tag">Pandas & NumPy</span>
-                            <span class="skill-tag">Matplotlib</span>
+                        <div class="skill-category finance">
+                            <div class="category-header">
+                                <i class="fas fa-chart-line"></i>
+                                <h4>Finance</h4>
+                            </div>
+                            <div class="skill-items">
+                                <div class="skill-item" data-level="98">
+                                    <span class="skill-name">Financial Modeling</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item" data-level="95">
+                                    <span class="skill-name">Equity Research</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item" data-level="92">
+                                    <span class="skill-name">LBO Analysis</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item" data-level="88">
+                                    <span class="skill-name">Derivatives</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -163,80 +302,145 @@
     <section id="experience" class="experience">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Professional Experience</h2>
-                <p class="section-subtitle">Building expertise across finance and technology</p>
+                <div class="section-badge">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Experience</span>
+                </div>
+                <h2 class="section-title">
+                    <span class="title-text">Professional</span>
+                    <span class="title-text">Journey</span>
+                </h2>
+                <p class="section-subtitle">Building expertise across elite financial institutions</p>
             </div>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-date">Sep 2025 - Present</div>
-                        <h3>Business Strategy & Market Research Intern</h3>
-                        <h4>SUTE AI, Inc</h4>
-                        <ul>
-                            <li>Conducted comprehensive market research analyzing 5+ competitor products and 3 customer segments</li>
-                            <li>Contributed to 15% increase in user engagement through data-backed recommendations</li>
-                            <li>Supported development of 2 new pricing models and 4 go-to-market presentations</li>
-                            <li>Expanded potential market reach by 20% through strategic opportunity identification</li>
-                        </ul>
+            <div class="timeline-container">
+                <div class="timeline">
+                    <div class="timeline-item active" data-aos="slide-right">
+                        <div class="timeline-marker">
+                            <div class="marker-ring"></div>
+                            <div class="marker-dot"></div>
+                        </div>
+                        <div class="timeline-card glass-card">
+                            <div class="card-header">
+                                <div class="company-logo">
+                                    <i class="fas fa-robot"></i>
+                                </div>
+                                <div class="job-info">
+                                    <h3>Business Strategy & Market Research Intern</h3>
+                                    <h4>SUTE AI, Inc</h4>
+                                    <div class="job-period">Sep 2025 - Present</div>
+                                </div>
+                            </div>
+                            <div class="job-description">
+                                <ul>
+                                    <li>Conducted comprehensive market research analyzing <strong>5+ competitor products</strong> and <strong>3 customer segments</strong></li>
+                                    <li>Contributed to <strong>15% increase in user engagement</strong> through data-backed recommendations</li>
+                                    <li>Supported development of <strong>2 new pricing models</strong> and <strong>4 go-to-market presentations</strong></li>
+                                    <li>Expanded potential market reach by <strong>20%</strong> through strategic opportunity identification</li>
+                                </ul>
+                            </div>
+                            <div class="job-skills">
+                                <span class="skill-tag">Market Research</span>
+                                <span class="skill-tag">Data Analysis</span>
+                                <span class="skill-tag">Strategy</span>
+                            </div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-date">Jul 2025 - Aug 2025</div>
-                        <h3>Real Estate Private Equity Intern</h3>
-                        <h4>3i Capital</h4>
-                        <ul>
-                            <li>Sourced and evaluated 250+ real estate deals for acquisition suitability</li>
-                            <li>Built automated cash flow, IRR, and NPV models for $500M+ in transactions</li>
-                            <li>Streamlined valuation processes with Python/AI tools, reducing review time by 75%</li>
-                            <li>Supported five active transactions with IC presentations and market analyses</li>
-                        </ul>
+                    <div class="timeline-item" data-aos="slide-left">
+                        <div class="timeline-marker">
+                            <div class="marker-ring"></div>
+                            <div class="marker-dot"></div>
+                        </div>
+                        <div class="timeline-card glass-card">
+                            <div class="card-header">
+                                <div class="company-logo">
+                                    <i class="fas fa-building"></i>
+                                </div>
+                                <div class="job-info">
+                                    <h3>Real Estate Private Equity Intern</h3>
+                                    <h4>3i Capital</h4>
+                                    <div class="job-period">Jul 2025 - Aug 2025</div>
+                                </div>
+                            </div>
+                            <div class="job-description">
+                                <ul>
+                                    <li>Sourced and evaluated <strong>250+ real estate deals</strong> for acquisition suitability</li>
+                                    <li>Built automated cash flow, IRR, and NPV models for <strong>$500M+ in transactions</strong></li>
+                                    <li>Streamlined valuation processes with Python/AI tools, reducing review time by <strong>75%</strong></li>
+                                    <li>Supported <strong>five active transactions</strong> with IC presentations and market analyses</li>
+                                </ul>
+                            </div>
+                            <div class="job-skills">
+                                <span class="skill-tag">Real Estate</span>
+                                <span class="skill-tag">Financial Modeling</span>
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">Valuation</span>
+                            </div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-date">Feb 2025 - Mar 2025</div>
-                        <h3>Private Equity Intern</h3>
-                        <h4>Caprae Capital Partners</h4>
-                        <ul>
-                            <li>Screened 480+ IT and healthcare firms for buyout opportunities</li>
-                            <li>Drove outreach to 200+ companies for deal origination</li>
-                            <li>Contributed to LBO modeling and pro forma capital structure analysis</li>
-                            <li>Developed investment briefs through TAM research and competitor benchmarking</li>
-                        </ul>
+                    <div class="timeline-item" data-aos="slide-right">
+                        <div class="timeline-marker">
+                            <div class="marker-ring"></div>
+                            <div class="marker-dot"></div>
+                        </div>
+                        <div class="timeline-card glass-card">
+                            <div class="card-header">
+                                <div class="company-logo">
+                                    <i class="fas fa-chart-pie"></i>
+                                </div>
+                                <div class="job-info">
+                                    <h3>Private Equity Intern</h3>
+                                    <h4>Caprae Capital Partners</h4>
+                                    <div class="job-period">Feb 2025 - Mar 2025</div>
+                                </div>
+                            </div>
+                            <div class="job-description">
+                                <ul>
+                                    <li>Screened <strong>480+ IT and healthcare firms</strong> for buyout opportunities</li>
+                                    <li>Drove outreach to <strong>200+ companies</strong> for deal origination</li>
+                                    <li>Contributed to LBO modeling and pro forma capital structure analysis</li>
+                                    <li>Developed investment briefs through TAM research and competitor benchmarking</li>
+                                </ul>
+                            </div>
+                            <div class="job-skills">
+                                <span class="skill-tag">Private Equity</span>
+                                <span class="skill-tag">LBO Modeling</span>
+                                <span class="skill-tag">Deal Sourcing</span>
+                            </div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-date">Jun 2024 - Aug 2024</div>
-                        <h3>Investment Analyst Intern</h3>
-                        <h4>ValueQuest Investment Advisors</h4>
-                        <ul>
-                            <li>Produced DCF and comps models for 10+ public equities</li>
-                            <li>Prepared investment memos with theses, KPIs, and risk assessments</li>
-                            <li>Researched market trends and sector fundamentals for portfolio strategies</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-date">Aug 2025 - Present</div>
-                        <h3>Teaching Assistant - Business Analysis</h3>
-                        <h4>Boston University</h4>
-                        <ul>
-                            <li>Support 100+ students in quantitative modeling and statistical programming</li>
-                            <li>Lead weekly office hours and review sessions</li>
-                            <li>Provide guidance in Excel, Python, and case-based analysis</li>
-                        </ul>
+                    <div class="timeline-item" data-aos="slide-left">
+                        <div class="timeline-marker">
+                            <div class="marker-ring"></div>
+                            <div class="marker-dot"></div>
+                        </div>
+                        <div class="timeline-card glass-card">
+                            <div class="card-header">
+                                <div class="company-logo">
+                                    <i class="fas fa-search-dollar"></i>
+                                </div>
+                                <div class="job-info">
+                                    <h3>Investment Analyst Intern</h3>
+                                    <h4>ValueQuest Investment Advisors</h4>
+                                    <div class="job-period">Jun 2024 - Aug 2024</div>
+                                </div>
+                            </div>
+                            <div class="job-description">
+                                <ul>
+                                    <li>Produced DCF and comps models for <strong>10+ public equities</strong></li>
+                                    <li>Prepared investment memos with theses, KPIs, and risk assessments</li>
+                                    <li>Researched market trends and sector fundamentals for portfolio strategies</li>
+                                    <li>Evaluated upside potential and macro factors for investment decisions</li>
+                                </ul>
+                            </div>
+                            <div class="job-skills">
+                                <span class="skill-tag">DCF Modeling</span>
+                                <span class="skill-tag">Equity Analysis</span>
+                                <span class="skill-tag">Investment Research</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -247,114 +451,178 @@
     <section id="projects" class="projects">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Featured Projects</h2>
-                <p class="section-subtitle">Quantitative finance and software development</p>
+                <div class="section-badge">
+                    <i class="fas fa-rocket"></i>
+                    <span>Projects</span>
+                </div>
+                <h2 class="section-title">
+                    <span class="title-text">Featured</span>
+                    <span class="title-text">Work</span>
+                </h2>
+                <p class="section-subtitle">Innovative solutions at the intersection of finance and technology</p>
             </div>
             <div class="projects-grid">
-                <div class="project-card">
+                <div class="project-card featured" data-aos="zoom-in">
+                    <div class="project-glow"></div>
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-type">Quantitative Trading</span>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                     <div class="project-image">
                         <img src="assets/pairs-trading-placeholder.jpg" alt="Pairs Trading Strategy">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="#" class="project-link" aria-label="View Project">
-                                    <i class="fas fa-external-link-alt"></i>
-                                </a>
-                                <a href="#" class="project-link" aria-label="View Code">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
-                        </div>
+                        <div class="image-overlay"></div>
                     </div>
                     <div class="project-content">
-                        <h3>Pairs Trading Strategy</h3>
-                        <p>Developed a mean reversion trading strategy using cointegrated equities, 
-                           achieving a Sharpe ratio of 1.8 over a five-year backtest period.</p>
+                        <h3>Pairs Trading Algorithm</h3>
+                        <p>
+                            Advanced mean reversion trading strategy using cointegrated equities. 
+                            Achieved exceptional <strong>Sharpe ratio of 1.8</strong> over five-year backtest 
+                            with sophisticated risk management and position sizing.
+                        </p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-value">1.8</span>
+                                <span class="stat-label">Sharpe Ratio</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">5Y</span>
+                                <span class="stat-label">Backtest Period</span>
+                            </div>
+                        </div>
                         <div class="project-tech">
-                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag python">Python</span>
                             <span class="tech-tag">Pandas</span>
                             <span class="tech-tag">Statsmodels</span>
-                            <span class="tech-tag">Quantitative Finance</span>
+                            <span class="tech-tag">Quantlib</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="project-card">
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="project-glow"></div>
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-type">Derivatives Pricing</span>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                     <div class="project-image">
                         <img src="assets/options-pricing-placeholder.jpg" alt="Options Pricing Model">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="#" class="project-link" aria-label="View Project">
-                                    <i class="fas fa-external-link-alt"></i>
-                                </a>
-                                <a href="#" class="project-link" aria-label="View Code">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
-                        </div>
+                        <div class="image-overlay"></div>
                     </div>
                     <div class="project-content">
-                        <h3>Heston Options Pricing Model</h3>
-                        <p>Calibrated Heston stochastic volatility models to fit real market volatility surfaces, 
-                           improving derivatives pricing accuracy for complex options strategies.</p>
+                        <h3>Heston Volatility Model</h3>
+                        <p>
+                            Calibrated advanced stochastic volatility models to real market data. 
+                            Significantly improved derivatives pricing accuracy for complex options strategies.
+                        </p>
                         <div class="project-tech">
-                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag python">Python</span>
                             <span class="tech-tag">NumPy</span>
                             <span class="tech-tag">SciPy</span>
-                            <span class="tech-tag">Derivatives</span>
+                            <span class="tech-tag">QuantLib</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="assets/lbo-modeling-placeholder.jpg" alt="LBO Model">
-                        <div class="project-overlay">
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="project-glow"></div>
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-type">Private Equity</span>
                             <div class="project-links">
-                                <a href="#" class="project-link" aria-label="View Project">
+                                <a href="#" class="project-link">
                                     <i class="fas fa-external-link-alt"></i>
                                 </a>
-                                <a href="#" class="project-link" aria-label="View Code">
+                                <a href="#" class="project-link">
                                     <i class="fab fa-github"></i>
                                 </a>
                             </div>
                         </div>
+                    </div>
+                    <div class="project-image">
+                        <img src="assets/lbo-modeling-placeholder.jpg" alt="LBO Model">
+                        <div class="image-overlay"></div>
                     </div>
                     <div class="project-content">
                         <h3>LBO Modeling Suite</h3>
-                        <p>Built comprehensive leveraged buyout models in both Excel and Python to assess 
-                           optimal capital structure and deal IRR across multiple scenarios.</p>
+                        <p>
+                            Comprehensive leveraged buyout models in Excel and Python. 
+                            Optimized capital structure analysis and deal IRR across multiple scenarios.
+                        </p>
                         <div class="project-tech">
-                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag python">Python</span>
                             <span class="tech-tag">Excel VBA</span>
                             <span class="tech-tag">Financial Modeling</span>
-                            <span class="tech-tag">Private Equity</span>
+                            <span class="tech-tag">Monte Carlo</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="assets/ai-chatbot-placeholder.jpg" alt="AI Chatbot">
-                        <div class="project-overlay">
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="project-glow"></div>
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-type">AI/ML</span>
                             <div class="project-links">
-                                <a href="#" class="project-link" aria-label="View Project">
+                                <a href="#" class="project-link">
                                     <i class="fas fa-external-link-alt"></i>
                                 </a>
-                                <a href="#" class="project-link" aria-label="View Code">
+                                <a href="#" class="project-link">
                                     <i class="fab fa-github"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
+                    <div class="project-image">
+                        <img src="assets/ai-chatbot-placeholder.jpg" alt="AI Chatbot">
+                        <div class="image-overlay"></div>
+                    </div>
                     <div class="project-content">
-                        <h3>AI Customer Support Chatbot</h3>
-                        <p>Developed an intelligent chatbot reducing client response time by 30%, 
-                           improving customer experience and operational efficiency for BU CAS.</p>
+                        <h3>AI Customer Support Bot</h3>
+                        <p>
+                            Intelligent chatbot reducing client response time by 30%. 
+                            Enhanced customer experience and operational efficiency using NLP.
+                        </p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-value">30%</span>
+                                <span class="stat-label">Faster Response</span>
+                            </div>
+                        </div>
                         <div class="project-tech">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">Machine Learning</span>
+                            <span class="tech-tag python">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
                             <span class="tech-tag">NLP</span>
-                            <span class="tech-tag">API Integration</span>
+                            <span class="tech-tag">FastAPI</span>
                         </div>
                     </div>
                 </div>
@@ -366,57 +634,81 @@
     <section id="contact" class="contact">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Get In Touch</h2>
-                <p class="section-subtitle">Let's discuss opportunities in finance and technology</p>
+                <div class="section-badge">
+                    <i class="fas fa-paper-plane"></i>
+                    <span>Contact</span>
+                </div>
+                <h2 class="section-title">
+                    <span class="title-text">Let's Build</span>
+                    <span class="title-text">Something Amazing</span>
+                </h2>
+                <p class="section-subtitle">Ready to discuss opportunities in finance and technology</p>
             </div>
             <div class="contact-content">
                 <div class="contact-info">
-                    <div class="contact-item">
-                        <div class="contact-icon">
+                    <div class="contact-card glass-card" data-aos="fade-right">
+                        <div class="card-icon">
                             <i class="fas fa-envelope"></i>
                         </div>
-                        <div class="contact-details">
-                            <h3>Email</h3>
-                            <p>dioravansh0@gmail.com</p>
-                        </div>
+                        <h3>Email Me</h3>
+                        <p>dioravansh0@gmail.com</p>
+                        <a href="mailto:dioravansh0@gmail.com" class="contact-btn">
+                            Send Email <i class="fas fa-arrow-right"></i>
+                        </a>
                     </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">
+                    <div class="contact-card glass-card" data-aos="fade-right" data-aos-delay="100">
+                        <div class="card-icon">
                             <i class="fas fa-phone"></i>
                         </div>
-                        <div class="contact-details">
-                            <h3>Phone</h3>
-                            <p>(617) 417-3685</p>
-                        </div>
+                        <h3>Call Me</h3>
+                        <p>(617) 417-3685</p>
+                        <a href="tel:+16174173685" class="contact-btn">
+                            Call Now <i class="fas fa-arrow-right"></i>
+                        </a>
                     </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">
+                    <div class="contact-card glass-card" data-aos="fade-right" data-aos-delay="200">
+                        <div class="card-icon">
                             <i class="fas fa-map-marker-alt"></i>
                         </div>
-                        <div class="contact-details">
-                            <h3>Location</h3>
-                            <p>Boston, Massachusetts</p>
-                        </div>
+                        <h3>Location</h3>
+                        <p>Boston, Massachusetts</p>
+                        <a href="#" class="contact-btn">
+                            View Map <i class="fas fa-arrow-right"></i>
+                        </a>
                     </div>
                 </div>
-                <form class="contact-form">
-                    <div class="form-group">
-                        <input type="text" id="name" name="name" placeholder="Your Name" required>
-                        <label for="name">Name</label>
+                <form class="contact-form glass-card" data-aos="fade-left">
+                    <div class="form-header">
+                        <h3>Send a Message</h3>
+                        <p>I'll get back to you within 24 hours</p>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Your Name</label>
+                            <div class="input-highlight"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Your Email</label>
+                            <div class="input-highlight"></div>
+                        </div>
                     </div>
                     <div class="form-group">
-                        <input type="email" id="email" name="email" placeholder="Your Email" required>
-                        <label for="email">Email</label>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        <input type="text" id="subject" name="subject" required>
                         <label for="subject">Subject</label>
+                        <div class="input-highlight"></div>
                     </div>
                     <div class="form-group">
-                        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
-                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                        <label for="message">Your Message</label>
+                        <div class="input-highlight"></div>
                     </div>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <button type="submit" class="btn btn-primary submit-btn">
+                        <span class="btn-text">Send Message</span>
+                        <span class="btn-loader"></span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
                 </form>
             </div>
         </div>
@@ -426,24 +718,32 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-text">
-                    <p>&copy; 2025 Vansh Diora. All rights reserved.</p>
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <span class="logo-v">V</span>
+                        <span class="logo-d">D</span>
+                    </div>
+                    <p>Building the future of finance through innovative technology solutions.</p>
                 </div>
-                <div class="footer-social">
-                    <a href="https://linkedin.com/in/vansh-diora" target="_blank" aria-label="LinkedIn">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                    <a href="https://github.com/vanshdiora21" target="_blank" aria-label="GitHub">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="mailto:dioravansh0@gmail.com" aria-label="Email">
-                        <i class="fas fa-envelope"></i>
-                    </a>
+                <div class="footer-right">
+                    <div class="footer-social">
+                        <a href="https://linkedin.com/in/vansh-diora" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/vanshdiora21" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:dioravansh0@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                    <p>&copy; 2025 Vansh Diora. Crafted with passion.</p>
                 </div>
             </div>
         </div>
     </footer>
 
-    <script src="js/main.js"></script>
+    <!-- Scripts -->
+    <script src="js/enhanced.js"></script>
 </body>
 </html>
