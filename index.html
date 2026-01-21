@@ -15,6 +15,7 @@
             <a href="#home" class="nav-logo">VD</a>
             <ul class="nav-menu">
                 <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#skills">Skills</a></li>
@@ -30,7 +31,6 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <div class="hero-image-container">
-                <!-- Replace 'placeholder.jpg' with your actual headshot -->
                 <img src="headshot.jpg" alt="Vansh Diora" class="hero-image">
             </div>
             <h1 class="hero-title">Vansh Diora</h1>
@@ -94,10 +94,75 @@
         </div>
     </section>
 
-    <!-- Experience Timeline -->
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                
+                <!-- Boston University -->
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Boston University</h3>
+                        <p class="education-degree">Bachelor of Science in Business Administration</p>
+                        <p class="education-degree">Bachelor of Arts in Computer Science</p>
+                        <p class="education-details">Dual Degree Program</p>
+                        <p class="education-date">Expected May 2026 | GPA: 3.3</p>
+                        <div class="education-highlights">
+                            <h4>Highlights</h4>
+                            <ul>
+                                <li>CFA Level I Candidate (Exam: February 2026)</li>
+                                <li>Teaching Assistant - Quantitative Modeling (BA222)</li>
+                                <li>Concentration: Finance</li>
+                            </ul>
+                        </div>
+                        <div class="coursework">
+                            <h4>Relevant Coursework</h4>
+                            <div class="coursework-tags">
+                                <span>Corporate Finance</span>
+                                <span>Investment Analysis</span>
+                                <span>Equity Valuation</span>
+                                <span>Financial Modeling</span>
+                                <span>Derivatives & Fixed Income</span>
+                                <span>Machine Learning for Finance</span>
+                                <span>Statistical Methods</span>
+                                <span>Probability & Statistics</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- High School -->
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Jamnabai Narsee School</h3>
+                        <p class="education-degree">High School Diploma</p>
+                        <p class="education-date">2017 - 2021</p>
+                        <div class="education-highlights">
+                            <h4>Highlights</h4>
+                            <ul>
+                                <li><strong>FIRST Robotics Competition:</strong> Represented India for 5 consecutive years</li>
+                                <li>Team RFactor 6024 - Multiple award winner</li>
+                                <li>Led STEM outreach initiatives in the community</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
     <section id="experience" class="experience">
         <div class="container">
-            <h2 class="section-title">My Journey (2017-2025)</h2>
+            <h2 class="section-title">Professional Experience</h2>
             <div class="timeline">
                 
                 <!-- 2025-Present -->
@@ -223,26 +288,6 @@
                     </div>
                 </div>
 
-                <!-- 2022-2026 - Boston University -->
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <span class="timeline-date">2022 - 2026</span>
-                        <h3>Boston University</h3>
-                        <h4>Dual Degree: BS Finance + BA Computer Science</h4>
-                        <ul>
-                            <li>GPA: 3.3 | Expected Graduation: May 2026</li>
-                            <li>CFA Level I Candidate (Exam: February 2026)</li>
-                            <li>Relevant Coursework: Corporate Finance, Equity Valuation, Machine Learning for Finance, Derivatives & Fixed Income</li>
-                        </ul>
-                        <div class="skills-tags">
-                            <span>Finance</span>
-                            <span>Computer Science</span>
-                            <span>Quantitative Analysis</span>
-                        </div>
-                    </div>
-                </div>
-
                 <!-- 2022 - Ngenious -->
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
@@ -258,26 +303,6 @@
                             <span>Python</span>
                             <span>AI/ML</span>
                             <span>Web Development</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 2017-2021 - High School -->
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <span class="timeline-date">2017 - 2021</span>
-                        <h3>Jamnabai Narsee School</h3>
-                        <h4>High School</h4>
-                        <ul>
-                            <li><strong>FIRST Robotics Competition:</strong> Represented India for 5 consecutive years with Team RFactor 6024</li>
-                            <li>Won multiple awards annually in robotics competitions</li>
-                            <li>Led unprecedented outreach initiatives, inspiring STEM education in community</li>
-                        </ul>
-                        <div class="skills-tags">
-                            <span>Robotics</span>
-                            <span>Team Leadership</span>
-                            <span>STEM Outreach</span>
                         </div>
                     </div>
                 </div>
@@ -490,75 +515,159 @@
     <section id="skills" class="skills">
         <div class="container">
             <h2 class="section-title">Technical Skills</h2>
-            <div class="skills-container">
+            
+            <div class="skills-grid">
                 
-                <div class="skill-category">
-                    <h3><i class="fas fa-chart-line"></i> Financial Modeling & Valuation</h3>
-                    <div class="skill-tags">
-                        <span>DCF Modeling</span>
-                        <span>LBO Analysis</span>
-                        <span>Comps Valuation</span>
-                        <span>WACC</span>
-                        <span>Financial Statement Analysis</span>
-                        <span>Equity Research</span>
-                        <span>Risk Assessment</span>
-                        <span>Investment Analysis</span>
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Financial Modeling & Valuation</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">DCF Modeling</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">LBO Analysis</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Comps Valuation</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">WACC</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Financial Statement Analysis</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Equity Research</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Risk Assessment</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Investment Analysis</span>
+                        </div>
                     </div>
                 </div>
 
-                <div class="skill-category">
-                    <h3><i class="fas fa-code"></i> Programming & Development</h3>
-                    <div class="skill-tags">
-                        <span>Python</span>
-                        <span>Pandas</span>
-                        <span>NumPy</span>
-                        <span>scikit-learn</span>
-                        <span>Statsmodels</span>
-                        <span>Matplotlib</span>
-                        <span>SQL</span>
-                        <span>C++</span>
-                        <span>Java</span>
-                        <span>Git</span>
-                        <span>Docker</span>
-                        <span>Bash</span>
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming & Development</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Pandas & NumPy</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">scikit-learn</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Statsmodels</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">SQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">C++ & Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Git & Docker</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Bash Scripting</span>
+                        </div>
                     </div>
                 </div>
 
-                <div class="skill-category">
-                    <h3><i class="fas fa-database"></i> Data Analysis & Visualization</h3>
-                    <div class="skill-tags">
-                        <span>Excel (Advanced)</span>
-                        <span>Tableau</span>
-                        <span>Power BI</span>
-                        <span>Statistical Analysis</span>
-                        <span>Data Visualization</span>
-                        <span>SQL Server</span>
-                        <span>Automation Tools</span>
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fas fa-database"></i>
+                        <h3>Data Analysis & Visualization</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Excel (Advanced)</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Tableau</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Power BI</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Statistical Analysis</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Data Visualization</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">SQL Server</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Automation Tools</span>
+                        </div>
                     </div>
                 </div>
 
-                <div class="skill-category">
-                    <h3><i class="fas fa-briefcase"></i> Business & Finance Tools</h3>
-                    <div class="skill-tags">
-                        <span>Argus Enterprise</span>
-                        <span>Bloomberg Terminal</span>
-                        <span>Financial Accounting</span>
-                        <span>Process Mapping</span>
-                        <span>Stakeholder Engagement</span>
-                        <span>Requirements Gathering</span>
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fas fa-briefcase"></i>
+                        <h3>Finance Tools & Platforms</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Argus Enterprise</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Bloomberg Terminal</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Financial Accounting</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Process Mapping</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Requirements Gathering</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Stakeholder Engagement</span>
+                        </div>
                     </div>
                 </div>
 
-                <div class="skill-category">
-                    <h3><i class="fas fa-brain"></i> Quantitative & Statistical Methods</h3>
-                    <div class="skill-tags">
-                        <span>Machine Learning</span>
-                        <span>Time Series Analysis</span>
-                        <span>Monte Carlo Simulation</span>
-                        <span>Statistical Modeling</span>
-                        <span>Derivatives Pricing</span>
-                        <span>Portfolio Optimization</span>
-                        <span>Risk Management</span>
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fas fa-brain"></i>
+                        <h3>Quantitative Methods</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Machine Learning</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Time Series Analysis</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Monte Carlo Simulation</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Statistical Modeling</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Derivatives Pricing</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Portfolio Optimization</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Risk Management</span>
+                        </div>
                     </div>
                 </div>
 
@@ -599,7 +708,7 @@
                 </div>
                 <div class="contact-location">
                     <i class="fas fa-map-marker-alt"></i>
-                    <span>Boston, MA | Mumbai, India</span>
+                    <span>Boston, Massachusetts</span>
                 </div>
             </div>
         </div>
